@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+.main {
+    background-image: url('assets/desktop/illustration-head-line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mainbg2 {
+    background-image: url('assets/desktop/illustration-about-me-2-desktop@2x.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 288.04px;
+height: 126.82px;
+top: 2502px;
+left: -53px;
+gap: 0px;
+border: 1.44px 0px 0px 0px;
+opacity: 0px;
+
+
+}
+.main1 {
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    display: flex;
+    justify-content: center;
+    color: #172b4d;
+
+}
+
+.main2 {
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    display: flex;
+    justify-content: center;
+    color: #36b37e;
+}
+
+.p1 {
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    color: #172b4d;
+
+}
+
+.main3 {
+    padding: 64px 24px 64px 24px;
+    gap: 58px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main4 {
+    padding: 64px 24px 64px 24px;
+    gap: 58px;
+    opacity: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.p2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-aboutme {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.header {
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+.header ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.hero {
+
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    color: grey;
+
+}
+
+.item {
+    padding: 64px 24px 64px 24px;
+    gap: 58px;
+    opacity: 0px;
+
+}
+
+.grid-container article {
+
+    padding: 20px;
+    text-align: center;
+    color: grey;
+}
+
+.about {
+
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+justify-content: center;
+}
