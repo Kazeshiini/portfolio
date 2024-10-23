@@ -2,7 +2,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 
 }
 
@@ -10,21 +9,24 @@ body {
     background-image: url('assets/desktop/illustration-head-line.png');
     background-repeat: no-repeat;
     background-size: contain;
+    
 }
+
 .mainbg2 {
     background-image: url('assets/desktop/illustration-about-me-2-desktop@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 288.04px;
-height: 126.82px;
-top: 2502px;
-left: -53px;
-gap: 0px;
-border: 1.44px 0px 0px 0px;
-opacity: 0px;
+    height: 126.82px;
+    top: 2502px;
+    left: -53px;
+    gap: 0px;
+    border: 1.44px 0px 0px 0px;
+    opacity: 0px;
 
 
 }
+
 .main1 {
     gap: 0px;
     opacity: 0px;
@@ -97,7 +99,7 @@ opacity: 0px;
     line-height: 24px;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -128,14 +130,17 @@ opacity: 0px;
 
     padding: 100px 20px;
     text-align: center;
+    height: 700px;
+    
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 40px;
     color: grey;
+    place-self: center ;
+height: 474px;
 
 }
 
@@ -148,7 +153,7 @@ opacity: 0px;
 
 .grid-container article {
 
-    padding: 20px;
+
     text-align: center;
     color: grey;
 }
@@ -165,7 +170,8 @@ opacity: 0px;
     padding: 20px;
     text-align: center;
 }
+
 .container1 {
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
