@@ -11,13 +11,6 @@ body {
     background-image: url('assets/desktop/illustration-about-me-2-desktop@2x.png');
     background-repeat: no-repeat;
     background-size: contain;
-    width: 288.04px;
-    height: 126.82px;
-    top: 2502px;
-    left: -53px;
-    gap: 0px;
-    border: 1.44px 0px 0px 0px;
-    opacity: 0px;
 
 
 }
@@ -85,19 +78,29 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+    width: 50%;
+    color: #42526E;
+
 }
 
 .button-aboutme {
-    font-family: Inter;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 24px;
+    background: #36B37F;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-color: unset;
     display: flex;
     justify-content: center;
+    text-align: center;
+    width: 200px;
 
 
 }
-
+.button-aboutme:hover {
+background: transparent;
+color: #172b4d;
+}
 .header {
 
     padding: 20px;
@@ -142,7 +145,7 @@ body {
 
 }
 
-.item { 
+.item {
     opacity: 0px;
     border: 1px solid black;
     border-radius: 10px;
@@ -156,26 +159,42 @@ body {
 
 
     text-align: center;
-    color : black;
+    color: black;
     size: 24px;
-    line-height: 32px ;
+    line-height: 32px;
     font-weight: 600;
 }
+
 .article-project {
     width: 100%;
     height: 250px;
-    border-radius:  5px;
+    border-radius: 5px;
 }
-.grid-container-tags{
-    width: Hug (106px);
-height: Hug (32px);
-padding: 8px 12px 8px 12px;
-gap: 0px;
-border-radius: 4px 0px 0px 0px;
-opacity: 0px;
+.skills {
+display: flex;
+justify-content: space-around;
+gap: 10px;
+}
 
+.skills-items{
+background: #ebf0ee;
+color: #172b4d;
+border-radius: 5px;
+padding: 5px 15px;
+font-size: 12px;
 }
-.tags-item
+.project{
+    background: #36B37F;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-color: unset;
+}
+.project:hover{
+background: transparent;
+color: #172b4d;
+}
 .about {
 
     padding: 40px;
@@ -192,4 +211,55 @@ opacity: 0px;
 .container1 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+align-items: center;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 58px;
+    color: black;
+    place-self: center;
+    width: 80%;
+    
+}
+.item2{
+    opacity: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 474px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    gap: 10px;
+}
+.image2{
+    width: 80px;
+height: 80px;
+display: flex;
+justify-content: center;
+box-shadow: 0px 16px 24px 0px #252F8914;
+
+
+}
+.skills-item2{
+   background: #FFFFFF;
+   color: #36B37E;
+    border-radius: 5px;
+padding: 5px 15px;
+font-size: 12px;
+}
+.skills2{
+    display: flex;
+justify-content: space-around;
+gap: 10px;
+}
+.get-in-touch{
+    background: #36B37F;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-color: unset; 
 }
