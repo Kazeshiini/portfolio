@@ -5,7 +5,7 @@ body {
 
 }
 
-.main {}
+
 
 .mainbg2 {
     background-image: url('assets/desktop/illustration-about-me-2-desktop@2x.png');
@@ -262,4 +262,15 @@ gap: 10px;
     padding: 10px 20px;
     font-size: 15px;
     border-color: unset; 
+}
+.get-in-touch:hover{
+    background: transparent;
+color: #172b4d;
+}
+.some {
+    margin: 5px;
+}
+.last-text{
+    display: flex;
+    justify-content: center;
 }

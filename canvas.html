@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas - Cercle anim</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin:
+                auto;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <script>
+        const canvas = document.getElementById('gameCanvas');
+        const ctx = canvas.getContext('2d');
+        let x = 20, y = 80, dx = 2, dy = 2, radius = 10;
+        function drawCircle() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.beginPath();
+            ctx.arc(x, y, radius, 0, Math.PI * 2);
+            ctx.fillStyle = 'blue';
+            ctx.fill();
+            ctx.closePath();
+            if (x + dx > canvas.width - radius || x + dx < radius)
+                dx = - dx;
+            if (y + dy > canvas.height - radius || y + dy < radius)
+                dy = - dy;
+            x += dx;
+            y += dy;
+            requestAnimationFrame(drawCircle);
+        }
+        drawCircle();
+    </script>
+</body>
+
+</html>
